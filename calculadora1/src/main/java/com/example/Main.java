@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // PASO2
+        
         double numero1, numero2, resultado;
         String operacion;
-        // PASO 3
+        
         Scanner Calculator = new Scanner(System.in);
-        System.out.println("ingrese el primer numero a calcular");
+        System.out.println("Ingrese el primer numero a calcular");
         numero1 = Calculator.nextDouble();
-        System.out.println("ingrese el segundo numero a calcular");
+        System.out.println("Ingrese el segundo numero a calcular");
         numero2 = Calculator.nextDouble();
         System.out.println("AHORA INGRESE LA OPERACION QUE QUIERA REALIZAR");
         System.out.println(" + SUMA ");
